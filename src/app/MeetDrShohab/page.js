@@ -4,14 +4,18 @@ import Qualifications from "@/components/Qualifications";
 import OurMission from "@/components/OurMission";
 import Experience from "@/components/Experience";
 import PioneeringTherapy from "@/components/PioneeringTherapy";
-import Navbar from "@/components/Navbar";
 import ServiceGrid from "@/components/ServiceGrid";
 import Testimonials from "@/components/Testimonials";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import ContactSection from "@/components/ContactSection";
 import OurClinics from "@/components/OurClinics";
-import ContactBar from "@/components/ContactBar";
 
+
+export const metadata = {
+  title: "Meet Dr. Shohab",
+  description:
+    "Dr. Shohab Hyder stands out as an orthopedic doctor in Karachi, providing exceptional care and specialized treatments for a diverse range of orthropedics.",
+};
 
 const page = () => {
   return (

@@ -10,10 +10,15 @@ import Faqs from "@/components/Faqs";
 import ContactBar from "@/components/ContactBar";
 import Navbar from "@/components/Navbar";
 
+export const metadata = {
+  title: "Home",
+  description:
+    "Dr. Shohab Shaikh is a qualified British-trained traumatologist and the best orthropedic doctor in Karachi. Provides treatment for hip and knee surgery in Karachi, regenerative therapy in Karachi, and much more related to orthropedic.",
+};
+
 export default function Home() {
   return (
     <>
-    
       <div className=" main-bg pt-40">
         <div className=" max-w-[1700px] p-12 mx-auto">
           <div className=" md:grid grid-cols-12">

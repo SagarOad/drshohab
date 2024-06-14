@@ -18,6 +18,13 @@ import {
 import ContactSection from "@/components/ContactSection";
 import ServiceGridWhite from "@/components/ServiceGridWhite";
 
+
+export const metadata = {
+  title: "Complex Bone Fractures (Trauma)",
+  description:
+    "Dr. Shohab Hyder is a bone fracture surgeon in Karachi, ensuring the best treatment and recovery for patients with bone fractures.",
+};
+
 const page = () => {
   return (
     <>

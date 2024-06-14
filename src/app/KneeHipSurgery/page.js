@@ -1,4 +1,3 @@
-import Navbar from "@/components/Navbar";
 import React from "react";
 import Image from "next/image";
 import surgery1 from "@/assets/surgery1.webp";
@@ -17,6 +16,13 @@ import {
 } from "@/components/ui/accordion";
 import ContactSection from "@/components/ContactSection";
 import ServiceGridWhite from "@/components/ServiceGridWhite";
+
+
+export const metadata = {
+  title: "Hip & Knee Surgery",
+  description:
+    "Dr. Shohab Hyder is the best hip and knee surgeon in Karachi. He is known for his experience and compassionate care, making him a trusted choice for patients.",
+};
 
 const page = () => {
   return (

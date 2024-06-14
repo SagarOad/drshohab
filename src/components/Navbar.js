@@ -127,12 +127,13 @@ const Navbar = () => {
             >
               Visit Us
             </Link>
-            <Link
-              href="/blog"
+            <a
+              href="https://blog.drshohabhydershaikh.com/"
+              target="_blank"
               className={`hover:text-teal-500 py-2 px-4 ${isActive("/blog")}`}
             >
               Blog
-            </Link>
+            </a>
           </div>
           <Link
             href="/book-appointment"

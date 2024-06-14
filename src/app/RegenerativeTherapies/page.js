@@ -1,4 +1,3 @@
-import Navbar from "@/components/Navbar";
 import React from "react";
 import Image from "next/image";
 import knee from "@/assets/knee.webp";
@@ -18,6 +17,13 @@ import {
 } from "@/components/ui/accordion";
 import ContactSection from "@/components/ContactSection";
 import ServiceGridWhite from "@/components/ServiceGridWhite";
+
+
+export const metadata = {
+  title: "Regenerative Therapy",
+  description:
+    "Dr. Shohab Hyder offers regenerative therapy in Karachi, providing patients with innovative and personalized approaches for tissue repair and healing.",
+};
 
 const page = () => {
   return (

@@ -1,4 +1,3 @@
-import Navbar from "@/components/Navbar";
 import React from "react";
 import Image from "next/image";
 import surgery1 from "@/assets/surgery1.webp";
@@ -17,6 +16,13 @@ import {
 } from "@/components/ui/accordion";
 import ContactSection from "@/components/ContactSection";
 import ServiceGridWhite from "@/components/ServiceGridWhite";
+
+
+export const metadata = {
+  title: "Musculoskeletel Solutions",
+  description:
+    "Dr. Shohaib Hyder is a musculoskeletal disorder surgeon in Karachi, specializing in comprehensive diagnosis and advanced surgical interventions.",
+};
 
 const page = () => {
   return (

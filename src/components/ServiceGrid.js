@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const ServiceGrid = () => {
@@ -11,9 +12,13 @@ const ServiceGrid = () => {
           <p className=" text-center text-[#BABABA] text-[22px]">
             At our Orthopaedic clinic, we pride ourselves on delivering a
             comprehensive range of services tailored to meet your unique
-            Orthopaedic needs.<span className=" font-bold text-white"> Dr. Shohab Hyder Shaikh </span>and our
-            dedicated team are committed to provide personalized and advanced
-            care to enhance your Orthopaedic well-being.
+            Orthopaedic needs.
+            <span className=" font-bold text-white">
+              {" "}
+              Dr. Shohab Hyder Shaikh{" "}
+            </span>
+            and our dedicated team are committed to provide personalized and
+            advanced care to enhance your Orthopaedic well-being.
           </p>
         </div>
         <div className="md:grid grid-cols-12">
@@ -30,9 +35,9 @@ const ServiceGrid = () => {
                 replacement surgeries, including total joint replacement and
                 arthroplasty.
               </p>
-              <button className="text-blue-600 font-medium text-[19px]">
+              <Link href="/KneeHipSurgery" className="text-blue-600 font-medium text-[19px]">
                 Read more..
-              </button>
+              </Link>
             </div>
           </div>
           <div className=" col-span-4 regenerative-therapies-bg rounded-2xl flex justify-end items-end">
@@ -41,16 +46,15 @@ const ServiceGrid = () => {
                 Get Appointment
               </button>
               <h2 className=" text-[1.5rem] font-medium leading-8">
-                Hip & Knee Joint Replacement Surgery
+                Regenerative Therapies
               </h2>
               <p className=" text-[18px] my-8">
-                Experience precision and expertise in hip & knee joint
-                replacement surgeries, including total joint replacement and
-                arthroplasty.
+                Explore innovative regenerative treatments designed to stimulate
+                healing and accelerate recovery.
               </p>
-              <button className="text-blue-600 font-medium text-[19px]">
+              <Link href="/RegenerativeTherapies" className="text-blue-600 font-medium text-[19px]">
                 Read more..
-              </button>
+              </Link>
             </div>
           </div>
           <div className=" col-span-4 arthroscopy-bg rounded-2xl flex justify-end items-end">
@@ -59,16 +63,15 @@ const ServiceGrid = () => {
                 Get Appointment
               </button>
               <h2 className=" text-[1.5rem] font-medium leading-8">
-                Hip & Knee Joint Replacement Surgery
+                Arthroscopy (Keyhole Surgery)
               </h2>
               <p className=" text-[18px] my-8">
-                Experience precision and expertise in hip & knee joint
-                replacement surgeries, including total joint replacement and
-                arthroplasty.
+                Benefit from minimally invasive arthroscopic procedures for the
+                diagnosis and treatment of joint-related issues.
               </p>
-              <button className="text-blue-600 font-medium text-[19px]">
+              <Link href="ArthroscopyKeyholeSurgery" className="text-blue-600 font-medium text-[19px]">
                 Read more..
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -79,16 +82,15 @@ const ServiceGrid = () => {
                 Get Appointment
               </button>
               <h2 className=" text-[1.5rem] font-medium leading-8">
-                Hip & Knee Joint Replacement Surgery
+                Sports Injuries Management
               </h2>
               <p className=" text-[18px] my-8">
-                Experience precision and expertise in hip & knee joint
-                replacement surgeries, including total joint replacement and
-                arthroplasty.
+                Receive specialized care for sports-related injuries, ranging
+                from fractures to ligament and tendon issues.
               </p>
-              <button className="text-blue-600 font-medium text-[19px]">
+              <Link href="/SportsInjuryManagement" className="text-blue-600 font-medium text-[19px]">
                 Read more..
-              </button>
+              </Link>
             </div>
           </div>
           <div className=" col-span-4 complex-bone-fracture rounded-2xl flex justify-end items-end">
@@ -97,16 +99,15 @@ const ServiceGrid = () => {
                 Get Appointment
               </button>
               <h2 className=" text-[1.5rem] font-medium leading-8">
-                Hip & Knee Joint Replacement Surgery
+                Complex Bone Fractures (Trauma)
               </h2>
               <p className=" text-[18px] my-8">
-                Experience precision and expertise in hip & knee joint
-                replacement surgeries, including total joint replacement and
-                arthroplasty.
+                Trust in our experience in managing complex bone fractures
+                resulting from trauma. Dr. Shohab employs advanced techniques.
               </p>
-              <button className="text-blue-600 font-medium text-[19px]">
+              <Link href="/ComplexBoneFractures" className="text-blue-600 font-medium text-[19px]">
                 Read more..
-              </button>
+              </Link>
             </div>
           </div>
           <div className=" col-span-4 musculoskeletal-bg rounded-2xl flex justify-end items-end">
@@ -115,16 +116,16 @@ const ServiceGrid = () => {
                 Get Appointment
               </button>
               <h2 className=" text-[1.5rem] font-medium leading-8">
-                Hip & Knee Joint Replacement Surgery
+                Musculoskeletal Solutions
               </h2>
               <p className=" text-[18px] my-8">
-                Experience precision and expertise in hip & knee joint
-                replacement surgeries, including total joint replacement and
-                arthroplasty.
+                Holistic approach to Musculoskeletal health, a spectrum of
+                conditions affecting muscles, bones, joints, ligaments, and
+                tendons.
               </p>
-              <button className="text-blue-600 font-medium text-[19px]">
+              <Link href="/MusculoskeletalSolutions" className="text-blue-600 font-medium text-[19px]">
                 Read more..
-              </button>
+              </Link>
             </div>
           </div>
         </div>

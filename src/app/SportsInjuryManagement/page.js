@@ -1,7 +1,5 @@
-import Navbar from "@/components/Navbar";
 import React from "react";
 import Image from "next/image";
-import knee from "@/assets/knee.webp";
 import surgery1 from "@/assets/surgery1.webp";
 import surgery2 from "@/assets/surgery2.webp";
 import surgery3 from "@/assets/surgery3.webp";
@@ -19,10 +17,15 @@ import {
 import ContactSection from "@/components/ContactSection";
 import ServiceGridWhite from "@/components/ServiceGridWhite";
 
+export const metadata = {
+  title: "Sports injuries Management",
+  description:
+    "Dr. Shohab Hyder is the best sports injury surgeon in Karachi, providing the latest surgical solutions for athletes looking for recovery and rehabilitation.",
+};
+
 const page = () => {
   return (
     <>
-      
       <div>
         <div className=" hip-joint-bg pt-60 pb-32">
           <div className=" max-w-[1700px] p-12 mx-auto">
